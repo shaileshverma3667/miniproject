@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/bootstrap.css" rel="stylesheet"/>
+    <link href="../css/all.css" rel="stylesheet"/>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <style>
+        .f
+        {
+            padding: 80px;
+        }
+        .img
+        {
+            margin-top: 180px;
+            
+        }
+        .text-bg-mycolor
+        {
+            background:linear-gradient(60deg,green,#63a55a);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!--start menu-->
+    <div class="container-fluid">
+        <div class="row text-bg-mycolor fs-4 text-center">
+            <div class="col-sm-4"><b><i class="fa-solid fa-envelope"></i> shaileshverma3667@gmail.com</b></div>
+            <div class="col-sm-4"> <i class="fa-solid fa-phone"></i> +91 9721980953</div>
+            <div class="col-sm-4">
+                <i class="fa-brands fa-facebook p-2"></i>
+                <i class="fa-brands fa-twitter p-2"></i>
+                <i class="fa-brands fa-instagram p-2"></i>
+                <i class="fa-brands fa-youtube p-2"></i>
+            </div>
+        </div>
+        <div class="row fs-3 mt-4">
+            <div class="col-sm-4">Desire<b class="text-success">Cart <i class="fa-solid fa-cart-shopping"></i></b></div>
+            <div class="col-sm-4">
+                <div class="input-group">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <span class="input-group-text bg-success text-white"><i class="fa-solid fa-search"></i></span>
+                </div>  
+            </div>
+            <div class="col-sm-4 text-end text-success">
+                <i class="fa-solid fa-cart-shopping me-5 fs-2"></i>
+            </div>
+        </div>
+              <div class="row text-bg-dark mt-3 sticky-top">
+                <div class="col-sm-3 text-success fs-2 fw-bold text-center mt-2">DESIRCART</div>
+                <div class="col-sm-9">
+                   
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                         
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active text-white ms-2" aria-current="page" href="first.html"><i class="fa-solid fa-house-user"></i> HOME</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white  ms-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-brands fa-product-hunt"></i> PRODUCT
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item text-bg-light" href="mentshirt.html">MEN'S</a></li>
+                                  <li><a class="dropdown-item text-bg-light" href="wtishirt.html">WOMEN'S</a></li>
+                                  
+                                  <li><a class="dropdown-item text-bg-light" href="kidsp.html">KID'S</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active text-white  ms-2" aria-current="page" href="#"> <i class="fa-solid fa-cart-shopping"> </i> MY ORDERE</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active text-white  ms-2" aria-current="page" href="myprofile.html"> <i class="fa-solid fa-user"> </i> MY PROFILE</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active text-white  ms-2" aria-current="page" href="contactus.html"><i class="fa-solid fa-phone"> </i> CUSTOMER SOPPORT</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active text-white  ms-2" aria-current="page" href="signup.html"><i class="fa-solid fa-user"> </i> SIGN-UP</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active text-white  ms-2" aria-current="page" href="loginform.html"><i class="fa-solid fa-key"></i> SIGN-IN</a>
+                              </li>
+                              
+                            </ul>
+                           
+                          </div>
+                        </div>
+                      </nav>
+                
+                </div>
+            </div>
+    <!--end menu-->
+
+        <div class="row text-bg-mycolor">
+            <div class="col-sm-6 img">
+                <img src="../images/filipkart.jpg" class="img-fluid"/>
+            </div>
+            <div class="col-sm-6 f">
+                <p class="text-center fs-3 fw-bold mb-5">Create Your Seller Account</p>
+                <form>
+                    <input type="eamil" placeholder="Enter youe Email Address" class="form-control mb-5"/>
+                    <div class="input-group  mb-5">
+                        <input type="text" placeholder="+91 Enter your Mobile Number" class="form-control"/>
+                        <span class="input-group-text text-bg-light">Send OTP</span>
+                    </div>
+                    <input type="text" placeholder="Enter youe Full Name" class="form-control  mb-5"/>
+                    <div class="input-group  mb-3">
+                        <input type="password" placeholder="Set password" class="form-control"/>
+                        <span class="input-group-text text-bg-light">password</span>
+                    </div>
+                    Minimum 4 character
+                    <p>By filling this form .I agree to <span class="text-info">Terms of Use</span></p>
+                    <input type="submit" class="form-control btn btn-info text-white"/>
+                    <p>Already a Seller? <span class="text-info"><a href="loginform.html" class="text-white text-decoration-none">Login Here</a> </span></p>
+                </form>
+            </div>
+    </div>
+</body>
+</html>

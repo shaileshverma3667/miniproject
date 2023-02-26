@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/all.css" rel="stylesheet"/>
+    <script src="js/bootstrap.bundle.js"></script>
+    <style>
+         .text-bg-mycolor
+        {
+            background:linear-gradient(60deg,green,#63a55a);
+            color: white;
+        }
+        .img1
+        {
+            background:url("../image/s1.jpg");
+            background-size: cover;
+           
+            height: 300px;
+            width: 430px;
+            margin: 25px;
+            text-align: center;
+            line-height: 250px;
+            font-size: 30px;
+        }
+        .img2
+        {
+            background:url("../image/s2.jpg");
+            background-size: cover;
+          
+            height: 300px;
+            width: 400px;
+            margin: 25px;
+            text-align: center;
+            line-height: 250px;
+            font-size: 30px;
+        }
+        .img3
+        {
+            background:url("../image/s3.jpg");
+            background-size: cover;
+          
+            height: 300px;
+            width: 400px;
+            margin: 25px;
+            text-align: center;
+            line-height: 250px;
+            font-size: 30px;
+        }
+       #p{
+        position:fixed;
+        top:320px;
+        left: 0;
+       }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row text-bg-mycolor fs-4 text-center">
+            <div class="col-sm-4"><b><i class="fa-solid fa-envelope"></i> shaileshverma3667@gmail.com</b></div>
+            <div class="col-sm-4"> <i class="fa-solid fa-phone"></i> +91 9721980953</div>
+            <div class="col-sm-4">
+                <i class="fa-brands fa-facebook p-2"></i>
+                <i class="fa-brands fa-twitter p-2"></i>
+                <i class="fa-brands fa-instagram p-2"></i>
+                <i class="fa-brands fa-youtube p-2"></i>
+            </div>
+        </div>
+        <div class="row fs-3 mt-4">
+            <div class="col-sm-4">Desire<b class="text-success">Cart <i class="fa-solid fa-cart-shopping"></i></b></div>
+            <div class="col-sm-4">
+                <div class="input-group">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <span class="input-group-text bg-success text-white"><i class="fa-solid fa-search"></i></span>
+                </div>  
+            </div>
+            <div class="col-sm-4 text-end text-success">
+                <i class="fa-solid fa-cart-shopping me-5 fs-2"></i>
+            </div>
+        </div>
+              <div class="row text-bg-dark mt-3 sticky-top">
+                <div class="col-sm-3 text-success fs-2 fw-bold text-center mt-2">DESIRCART</div>
+                <div class="col-sm-9">
+              
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                         
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active text-white ms-2" aria-current="page" href="first.html"><i class="fa-solid fa-house-user"></i> HOME</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white  ms-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-brands fa-product-hunt"></i> PRODUCT
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item text-bg-light" href="mentshirt.html">MEN'S</a></li>
+                                  <li><a class="dropdown-item text-bg-light" href="wtishirt.html">WOMEN'S</a></li>
+                                  
+                                  <li><a class="dropdown-item text-bg-light" href="kidsp.html">KID'S</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active text-white  ms-2" aria-current="page" href="#"> <i class="fa-solid fa-cart-shopping"> </i> MY ORDERE</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active text-white  ms-2" aria-current="page" href="myprofile.html"> <i class="fa-solid fa-user"> </i> MY PROFILE</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active text-white  ms-2" aria-current="page" href="contactus.html"><i class="fa-solid fa-phone"> </i> CUSTOMER SOPPORT</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active text-white  ms-2" aria-current="page" href="signup.html"><i class="fa-solid fa-user"> </i> SIGN-UP</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active text-white  ms-2" aria-current="page" href="loginform.html"><i class="fa-solid fa-key"></i> SIGN-IN</a>
+                              </li>
+                              
+                            </ul>
+                           
+                          </div>
+                        </div>
+                      </nav>
+                  
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-sm-12 p-0">
+                    <!--slider start-->
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="1500px">
+                            <img src="../images/slider8.jpg" class="d-block w-100" alt="..." style="max-height:490px;">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>First slide label</h5>
+                              <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="1500px">
+                            <img src="../images/slider4.jpg" class="d-block w-100" alt="..."  style="max-height:590px;">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Second slide label</h5>
+                              <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="1500px">
+                            <img src="../images/slider3.jpg" class="d-block w-100" alt="..."  style="max-height:590px;">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Third slide label</h5>
+                              <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    <!--slider end-->
+                </div>
+            </div>
+            <div class="row" id="p">
+              <div class="col-sm-12"><a class="btn btn-success rounded-end mt-5"  href="first.html"><i class="fa-solid fa-comments"></i></a></div>
+            </div>
+            <!--gallary-->
+            <div class="row p-5 mx-auto bg-light">
+              <div class="col-sm-4 img1"><a href="mentshirt.html" class="btn btn-success">Men's</a></div>
+              <div class="col-sm-4 img2"><a href="wtishirt.html" class="btn btn-success">Women's</a></div>
+              <div class="col-sm-4 img3"><a href="kidsp.html" class="btn btn-success">Kid's</a></div>
+          </div>
+            <!--gallary end-->
+            <div class="row bg-light">
+              <div class="col-sm-12 fs-1 text-center fw-bold mb-2"> OUR<b class="text-success"> PRODUCT<i class="fa-solid fa-cart-shopping"></i></b></div>
+            </div>
+            <!--first card-->
+            <div class="row bg-light mt-3">
+              <div class="col-sm-3">
+                <div class="card">
+                  <img src="../image/sd2.jpeg" class="card-img-top" alt="..." style="height:350px;">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-3 text-center">Women's Sari</h5>
+                    <p class="card-text">
+                      <span class="fs-4">Women Plain saree</span><BR/>
+                      <span class="fs-5">SIZE::PRICE: <span class="text-success">1299.0/</span>-<S>1400.0</S></span>
+                    </p>
+                    <a href="#" class="btn btn-success">ADD TO CART</a>
+                    <a href="#" class="btn btn-success ms-5">ORDER NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3 ">
+                <div class="card">
+                  <img src="../image/tshirt.jpg" class="card-img-top" alt="..." style="height:350px;">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-3 text-center">Men's Tshirt</h5>
+                    <p class="card-text">
+                      <span class="fs-4">Men's loose Teshirt/span><BR/>
+                      <span class="fs-5">SIZE::PRICE: <span class="text-success">699.0</span>/-<S>1099.0</S></span>
+                    </p>
+                    <a href="#" class="btn btn-success">ADD TO CART</a>
+                    <a href="#" class="btn btn-success ms-5">ORDER NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card">
+                  <img src="../image/jens.jpeg" class="card-img-top" alt="..." style="height:350px;">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-3 text-center">Kids jeans</h5>
+                    <p class="card-text">
+                      <span class="fs-4">Kids fit jeans</span><BR/>
+                      <span class="fs-5">SIZE::PRICE: <span class="text-success">499.0</span>/-<S>789.0</S></span>
+                    </p>
+                    <a href="#" class="btn btn-success">ADD TO CART</a>
+                    <a href="#" class="btn btn-success ms-5">ORDER NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card">
+                  <img src="../image/kurti.png" class="card-img-top" alt="..." style="height:350px;">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-3 text-center">Womens Kurti</h5>
+                    <p class="card-text">
+                      <span class="fs-4">Womens long fit Kurti</span><BR/>
+                      <span class="fs-4">SIZE::PRICE: <span class="text-success">799.0</span>/-<S>1099.0</S></span>
+                    </p>
+                    <a href="#" class="btn btn-success">ADD TO CART</a>
+                    <a href="#" class="btn btn-success ms-5">ORDER NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-1">
+            <!--second card-->
+              <div class="col-sm-3">
+                <div class="card">
+                  <img src="../images/w5.jpg" class="card-img-top" alt="..." style="height:350px;">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-3 text-center">Womens Kurti</h5>
+                    <p class="card-text">
+                      <span class="fs-4">Womens long fit Kurti</span><BR/>
+                      <span class="fs-5">SIZE::PRICE: <span class="text-success">799.0</span>/-<S>1099.0</S></span>
+                    </p>
+                    <a href="#" class="btn btn-success">ADD TO CART</a>
+                    <a href="#" class="btn btn-success ms-5">ORDER NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card">
+                  <img src="../images/mj3.jpg" class="card-img-top" alt="..." style="height:350px;">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-3 text-center">Mens Jeans</h5>
+                    <p class="card-text">
+                      <span class="fs-4">Mens denim blue jeans</span><BR/>
+                      <span class="fs-5">SIZE::PRICE: <span class="text-success">1099.0</span>/-<S>1700.0</S></span>
+                    </p>
+                    <a href="#" class="btn btn-success">ADD TO CART</a>
+                    <a href="#" class="btn btn-success ms-5">ORDER NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card">
+                  <img src="../images/kidsf.jpg" class="card-img-top" alt="..." style="height:350px;">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-3 text-center">kids frock</h5>
+                    <p class="card-text">
+                      <span class="fs-4">Kids girls designer frock</span><BR/>
+                      <span class="fs-5">SIZE::PRICE: <span class="text-success">799.0</span>/-<S>1259.0</S></span>
+                    </p>
+                    <a href="#" class="btn btn-success">ADD TO CART</a>
+                    <a href="#" class="btn btn-success ms-5">ORDER NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card">
+                  <img src="../images/mt4.jpg" class="card-img-top" alt="..." style="height:350px;">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-3 text-center">Mens Tshirt</h5>
+                    <p class="card-text">
+                      <span class="fs-4">Men's black Tshirt</span><BR/>
+                      <span class="fs-5">SIZE::PRICE: <span class="text-success">599.0</span>/-<S>899.0</S></span>
+                    </p>
+                    <a href="#" class="btn btn-success">ADD TO CART</a>
+                    <a href="#" class="btn btn-success ms-5">ORDER NOW</a>
+                  </div>
+            
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-sm-12 text-center fs-2">BIG <b class="text-success">SALE!</b></div>
+            </div>
+            <div class="row bg-light">
+              <div class="col-sm-5"><img src="../image/mart.jpg" height="430px" width="472px"/></div>
+              <div class="col-sm-7 text-center">
+                <p class="fs-2 text-success fw-bold">50%  less in all items</p>
+                <p class="fs-4">New arrivals,new collection<br/>
+                  Flat 50% off in every item you buy from DESIRCART.<br/>
+                  Offir valid for five days only.<br/>
+                  HURRY UP!
+                </p>
+                <a  href="wtishirt.html" class="btn btn-success">SHOP NOW</a>
+              </div>
+            </div>
+            <div class="row bg-light mt-3">
+              <div class="col-sm-12 text-center fs-3">OUR <b class="text-success">SERVICES <i class="fa-solid fa-wand-magic-sparkles"></i></b></div>
+            </div>
+            <div class="outer p-5">
+          <div class="row mt-4 bg-light  border border-4 mx-auto">
+            <div class="col-sm-4  text-center border-end p-4"> 
+              <i class="fa-sharp fa-solid fa-truck-fast fs-1 mt-3 text-success"></i>
+             <b class="fs-4">FREE SHOPPING</b>
+             <p>For all Order upto <i class="fa-solid fa-indian-rupee-sign"></i> 2000</p>
+            </div>
+            <div class="col-sm-4 text-center p-4 border-end">
+              <i class="fa-solid fa-clock text-success mt-3 fs-4"></i>
+             <b class="fs-5"> DELIVERY ON TIME</b>
+             <p>Fastest Delivery at doorstep</p>
+            </div>
+
+            <div class="col-sm-4 text-center border-end p-4">
+              <i class="fa-solid fa-lock text-success fs-3 mt-3"></i>
+              <b class="fs-4">SECURE PAYMENT</b>
+              <P>100% Secure Payment</P>
+            </div>
+          </div>
+            </div>
+          <!--footer-->
+          <div class="row text-bg-dark mx-auto mt-3">
+            <div class="col-sm-4 mt-3 text-center">
+              <p class="fs-3">Desire<b  class="text-success">Cart <i class="fa-solid fa-cart-shopping"></i></b></p>
+              <p>Address Lucknow,utter pradesh 226022</p>
+              <p>Phone:+91 9721980953</p>
+              <p>Email: shaileshverma@gmail.com</p>
+            </div>
+            <div class="col-sm-2 mt-4 text-center">
+              <p>Information</p>
+              <p>About Us</p>
+              <p>Checkout</p>
+              <p>Contact</p>
+            </div>
+            <div class="col-sm-2 mt-4 text-center">
+              <p>My Account</p>
+              <p>My Account</p>
+              <p>Contact</p>
+              <p>Shopping Cart</p>
+            </div>
+            <div class="col-sm-4 mt-4 text-center">
+              <p>Join Our Newsletter Now</p>
+              <p>Get Email Update about our latest shop and special offers</p>
+              <div class="input-group">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <span class="input-group-text text-bg-success">SUBSCRIBE</span>
+              </div>
+            </div>
+          </div>
+          <!--end footer-->
+    </div>
+</body>
+</html>
